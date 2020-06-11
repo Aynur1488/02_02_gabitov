@@ -1,0 +1,101 @@
+body {
+	background-color:#000000;
+	margin: 0px;
+	color:#FFFFFF;
+	font-family: Montserrat,sans-serif;
+}
+ul{
+	margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+li {
+	list-style:none;
+	margin-left:10px;
+	color:#FFFFFF;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+}
+li > a:hover {
+    color: red; 
+}
+.shop-img {
+	display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.shop-img img{
+	width: 226px;
+}
+.menu-shop {
+	padding: 10px;
+    background-color: #3838388c;
+    margin-top: 20px;
+}
+.blok-tovar {
+    margin: 20px;
+    height: 100%;
+    max-width: 536px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5a5a5a;
+}
+.flex-box {
+	display: flex;
+}
+.img-buy {
+    display: flex;
+    min-width: 245px;
+    flex-direction: column;
+}
+.img-buy button{
+	padding: 10px 60px;
+}
+.info {
+	padding-left: 10px;
+    font-size: 18px;
+}
+.name {
+	font-size: 25px;
+}
+.tovar {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media only screen and (max-width:467px){
+.img-buy {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.img-buy img{
+	height: 100%;
+    width: 100%;
+}
+.blok-tovar {
+    margin: 20px;
+    height: 100%;
+    max-width: 463px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5a5a5a;
+}
+.flex-box {
+	display: block;
+}
+ul {
+    margin-top: 15px;
+    display: flex;
+    padding-left: 0px;
+    flex-flow: column;
+    font-size: 34px;
+}
+}
